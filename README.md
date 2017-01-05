@@ -6,7 +6,7 @@
 
 
 ##Usage
-      npm install --save a2-google-place
+      npm install --save angular2-google-place
 
 ### Add GooglePlaceModule in your NgModule imports file 
 <pre>
