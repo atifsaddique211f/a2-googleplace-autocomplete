@@ -1,6 +1,7 @@
 {
   "name": "angular2-google-place",
-  "version": "1.0.1",
+  "description": "google place auto complete search feature for angular 2 with easy integration",
+  "version": "1.0.2",
   "license": "MIT",
   "author": "Atif Saddique",
   "angular-cli": {},
