@@ -1,0 +1,14 @@
+.top-heading {
+  background: #d8310d;
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.container {
+  position: absolute;
+  left: 10%;
+  top: 6em;
+}

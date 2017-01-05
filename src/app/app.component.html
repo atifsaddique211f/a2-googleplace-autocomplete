@@ -1,0 +1,8 @@
+<div class="top-heading">
+  <h3>Angular 2 Google Place Auto Complete</h3>
+</div>
+<div class="container">
+  <label>Type Location : </label>
+  <input type="text" [(ngModel)]="address" (setAddress)="getAddress($event)" googleplace/>
+</div>
+
