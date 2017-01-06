@@ -7,7 +7,17 @@
 
 ##Usage
       npm install --save angular2-google-place
+      
+### Add following library in your index.html
 
+ ```
+   <script src="https://maps.googleapis.com/maps/api/js?libraries=places&sensor=false&key=AIzaSyBzpMo8pSOomlbA1r-EEdzg6NOUIsrtiGs"></script>
+ ```
+
+ You may need to replace the key in above library with your own google api key. 
+ You can generate key from here :
+ [Generate Key](https://developers.google.com/places/web-service/get-api-key)
+ 
 ### Add GooglePlaceModule in your NgModule imports file 
 <pre>
 import {GooglePlaceModule} from "angular2-google-place"
