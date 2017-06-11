@@ -11,12 +11,15 @@
 ### Add following library in your index.html
 
  ```
-   <script src="https://maps.googleapis.com/maps/api/js?libraries=places&sensor=false&key=AIzaSyBzpMo8pSOomlbA1r-EEdzg6NOUIsrtiGs"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?libraries=places&sensor=false&key=API_KEY"></script>
  ```
 
- You may need to replace the key in above library with your own google api key. 
+ You need to replace the key in above library with your own google api key. 
  You can generate key from here :
  [Generate Key](https://developers.google.com/places/web-service/get-api-key)
+ 
+ You also need to enable Google Places API Web Service from google developer [Console](https://console.developers.google.com).
+ 
  
 ### Add GooglePlaceModule in your NgModule imports file 
 <pre>
