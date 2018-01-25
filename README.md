@@ -1,11 +1,11 @@
-#Angular 2 Google Place Map Library Auto Complete
+# Angular 2 Google Place Map Library Auto Complete
 
 
-##Output
+## Output
 ![google-search](http://image.prntscr.com/image/81dce748b78c4b7fa51623d089ce2dbf.png)
 
 
-##Usage
+## Usage
       npm install --save angular2-google-place
       
 ### Add following library in your index.html
